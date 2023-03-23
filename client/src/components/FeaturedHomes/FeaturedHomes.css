@@ -1,0 +1,43 @@
+.featuredHomes{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.featuredHomeItem{
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.featuredHomeImage{
+    width: 100%;
+}
+
+.featuredHomeName{
+    font-weight: bold;
+}
+
+.featuredHomeCity{
+    font-weight: 300;
+}
+
+.featuredHomePrice{
+    font-weight: 500;
+}
+
+.featuredHomeRating>button{
+    background-color: #000080;
+    color: white;
+    border: none;
+    padding: 3px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.featuredHomeRating>span{
+    font-size: 14px;
+}
